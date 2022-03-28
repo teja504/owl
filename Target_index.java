@@ -21,7 +21,12 @@ public class Target_index
 	   System.out.println("Enter Target element ");
 	   int target=sc.nextInt();
 	   int pos=0;
+	   //System.out.println(Arrays.toString(arr));
 	
+	   for(int i=0;i<n;i++)
+	   {
+		   System.out.print(arr[i]+" ");
+	   }
 	   for(int i=0;i<n;i++)
 	   {
 		   if(arr[i]==target)
